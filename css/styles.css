@@ -22,6 +22,16 @@ body {
   color: var(--primary-text-color);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
 /* Шапка сайту */
 
 .header-logo {
@@ -87,7 +97,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.8;
+  line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--third-text-color);
   background-color: var(--accent-color);
@@ -103,7 +113,6 @@ body {
 /* Переваги */
 
 .benefits-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -119,7 +128,6 @@ body {
 }
 /* Чим ми займаємося */
 .work-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -130,7 +138,6 @@ body {
 /* Наша команда */
 
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -140,7 +147,7 @@ body {
 .team-name {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
@@ -191,11 +198,18 @@ footer {
 
 /* ----ПОРТФОЛІО--- */
 .button-list {
+}
+
+.portfolio-btn {
+  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 1.62;
+  text-align: center;
   letter-spacing: 0.03em;
+  border: 0;
   color: var(--primary-text-color);
+  background-color: #f5f4fa;
 }
 
 .portfolio-btn:hover,
@@ -205,7 +219,6 @@ footer {
 }
 
 .portfolio-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -213,7 +226,6 @@ footer {
 }
 
 .portfolio-subtitle {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
